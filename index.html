@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astafurov CV</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,18 +22,20 @@
                     <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
                     <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
                     <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    <li class="nav-item"><a href="#hobbies" class="nav-link">Hobbies</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main class="main">
-        <div class="main-container">
-            <img src="assets/img/avatar.jpg" alt="My photo" class="avatar">
+        <div class="container main-container">
             <section class="page-title">
-                <h1 class="main-title">Astafurov Sergei</h1>
-                <p>Junior frontend developer</p>
+                <img src="assets/img/avatar.jpg" alt="My photo" class="avatar">
+                <div class="main-title">
+                    <h1>Astafurov Sergei</h1>
+                    <p>Junior frontend developer</p>
+                </div>
             </section>
             <section class="section" id="about-me">
                 <h2 class="section-title">About me</h2>
@@ -44,10 +46,10 @@
                 <h2 class="section-title">Contacts</h2>
                 <ul>
                     <li>Russia, Rostov-on-Don</li>
-                    <li>E-mail: <a href="mailto:astafurovvv.s@gmail.com" title="E-mail">Astafurovvv.s@gmail.com</a></li>
-                    <li>GitHub: <a href="https://github.com/Serj-as" title="GitHub">Serj-as</a></li>
-                    <li>Discord: <a href="https://github.com/Serj-as" title="Discord">Serj-as#1079</a></li>
-                    <li>Telegram: <a href="https://t.me/Ser_Vlr">@Ser_Vlr</a></li>
+                    <li>E-mail: <a href="mailto:astafurovvv.s@gmail.com" title="E-mail" target="_blank">Astafurovvv.s@gmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/Serj-as" title="GitHub" target="_blank">Serj-as</a></li>
+                    <li>Discord: <a href="https://github.com/Serj-as" title="Discord" target="_blank">Serj-as#1079</a></li>
+                    <li>Telegram: <a href="https://t.me/Ser_Vlr" title="Telegram" target="_blank">@Ser_Vlr</a></li>
                 </ul>
             </section>
             <section class="section" id="skills">
@@ -76,33 +78,30 @@
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Courses</h2>
-                <ul>
-                    <li>Udemi - HTML/CSS</li>
-                    <li>RS School - Pre-school (in process...)</li>
-                </ul>
+                <ol class="courses-list">
+                    <li><a href="https://www.udemy.com/course/webdeveloper/" target="_blank">Udemi - HTML/CSS</a></li>
+                    <li><a href="https://rs.school/js/" target="_blank">RS School - Pre-school (in process...)</a></li>
+                </ol>
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
-                <ul>
+                <ul class="lang-list">
                     <li>Russian - Native</li>
                     <li>English - A2</li>
                 </ul>
             </section>
-            <section class="section" id="hobbies">
-                <h2 class="section-title">Hobbies</h2>
-                <ul>
-                    <li>Swimming</li>
-                    <li>Reading books</li>
-                    <li>Bicycling</li>
-                    <li>Traveling</li>
-                </ul>
+            <section class="section" id="project">
+                <h2 class="section-title">Project</h2>
+                <p><a href="https://serj-as.github.io/rsschool-cv/" target="_blank">My project</a></p>
             </section>
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="conteiner">
-
+    <footer>
+        <div class="container footer-icons">
+            <a class="my-github" href="https://github.com/serj-as" target="_blank"><img class="github-icon" src="assets/img/github.svg" alt="github" width="35"></a>
+            <span>2022</span>
+            <a href="https://rs.school/js/" target="_blank"><img class="rs-icon" src="assets/img/rs_school_js.svg" alt="rsschool" width="100"></a>
         </div>
     </footer>
 
