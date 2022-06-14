@@ -1,40 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astafurov CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
+
 <body>
-    <img src="avatar.jpg" alt="My photo">
-    <h1>Astafurov Sergei</h1>
-    <h2>Junior frontend developer</h2>
-    
-    <h2>About me</h2>
-    <p>I do the programming on my own. No experience in commercial activities. My goal is to get the maximum knowledge and skills to get a job.</p>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#code-example" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <h2>Contact info</h2>
-    <ul>
-        <li>E-mail: Astafurovvv.s@gmail.com</li>
-        <li>GitHub: Serj-as</li>
-        <li>Telegram: Ser_Vlr</li>
-    </ul>
+    <main class="main">
+        <div class="conteiner">
+            <img src="assets/img/avatar.jpg" alt="My photo" class="avatar">
+            <h1 class="main-title">Astafurov Sergei</h1>
+            <p>Junior frontend developer</p>
+        </div>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML (Basics)</li>
-        <li>CSS (Basics)</li>
-        <li>JS (Basics)</li>
-        <li>Git and GitHub (Basics)</li>
-    </ul>
+        <h2 class="section-title" id="about-me">About me</h2>
+        <p>I do the programming on my own. No experience in commercial activities. My goal is to get the maximum
+            knowledge and skills to get a job.</p>
 
-    <h2>Education</h2>
-    <p>University:</p>
-    <p>I finished Rostov State Construction University in 2013</p>
+        <h2 class="section-title" id="contacts">Contacts</h2>
+        <ul>
+            <li>E-mail: Astafurovvv.s@gmail.com</li>
+            <li>GitHub: Serj-as</li>
+            <li>Telegram: Ser_Vlr</li>
+        </ul>
 
-    <h2>Code example</h2>
-    <pre>
+        <h2 class="section-title" id="skills">Skills</h2>
+        <ul>
+            <li>HTML (Basics)</li>
+            <li>CSS (Basics)</li>
+            <li>JS (Basics)</li>
+            <li>Git and GitHub (Basics)</li>
+        </ul>
+
+        <h2 class="section-title" id="education">Education</h2>
+        <p>University:</p>
+        <p>I finished Rostov State Construction University in 2013</p>
+
+        <h2 class="section-title" id="code-example">Code example</h2>
+        <pre>
         <code>
     function multiply(a, b){
         return a * b
@@ -42,18 +66,25 @@
         </code>
     </pre>
 
-    <h2>Courses</h2>
-    <ul>
-        <li>Udemi - HTML/CSS</li>
-        <li>RS School - Pre-school (in process...)</li>
-    </ul>
+        <h2 class="section-title" id="courses">Courses</h2>
+        <ul>
+            <li>Udemi - HTML/CSS</li>
+            <li>RS School - Pre-school (in process...)</li>
+        </ul>
 
-    <h2>Languages</h2>
-    <ul>
-        <li>Russian - Native</li>
-        <li>English - A2</li>
-    </ul>
+        <h2 class="section-title" id="languages">Languages</h2>
+        <ul>
+            <li>Russian - Native</li>
+            <li>English - A2</li>
+        </ul>
+    </main>
 
+    <footer class="footer">
+        <div class="conteiner">
+
+        </div>
+    </footer>
 
 </body>
+
 </html>
